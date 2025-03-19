@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2>Responsive Registration Form</h2>
+        <form>
+         <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+        </div>
+        <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Re-type Password" required>
+         </div>
+         <div class="name-box">
+         <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="First Name" required>
+         </div>
+         <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Last Name" required>
+         </div>
+         </div>
+         <div class="gender-box">
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+         </div>
+         <div class="input-box">
+                <select required>
+                    <option value="" disabled selected>Select a country</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                </select>
+         </div>
+         <div class="checkbox-group">
+                <label><input type="checkbox" required> I agree with terms and conditions</label>
+                <label><input type="checkbox"> I want to receive the newsletter</label>
+         </div>
+            <button type="submit" class="register-btn">Register</button>
+    </form>
+    </div>
+
+</body>
+</html>

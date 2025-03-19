@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-box i {
+    margin-right: 10px;
+    color: #888;
+}
+
+.input-box input, .input-box select {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.name-box {
+    display: flex;
+    gap: 5px;
+}
+
+.name-box .input-box {
+    flex: 1;
+}
+
+.gender-box {
+    margin: 16px 0;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 19px 0;
+}
+
+.register-btn {
+    background: #f4b400;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background: #e09c00;
+}
